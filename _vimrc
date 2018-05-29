@@ -47,15 +47,15 @@ set nocompatible
 set background=dark
 
 " Vundle for Windows
-set rtp+=$VIM/vimfiles/bundle/Vundle.vim/
-call vundle#begin('$VIM/vimfiles/bundle/')
+"set rtp+=$VIM/vimfiles/bundle/Vundle.vim/
+"call vundle#begin('$VIM/vimfiles/bundle/')
 
 
 " Vundle for Linux
 "set rtp+=~/.vim/bundle/Vundle.vim
 "call vundle#rc()
 
-Plugin 'gmarik/Vundle.vim'
+"Plugin 'gmarik/Vundle.vim'
 "Bundle 'Valloric/YouCompleteMe'
 "Bundle 'vim-ruby/vim-ruby'
 "Bundle 'tpope/vim-haml'
@@ -72,7 +72,7 @@ Plugin 'gmarik/Vundle.vim'
 "Bundle 'nanotech/jellybeans.vim'
 "Bundle 'Lokaltog/vim-powerline'
 "Bundle 'scrooloose/syntastic'
-Bundle 'scrooloose/nerdtree'
+"Bundle 'scrooloose/nerdtree'
 "Bundle 'kien/ctrlp.vim'
 "Bundle 'rking/ag.vim'
 "Bundle 'kana/vim-textobj-user'
